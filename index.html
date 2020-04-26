@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="./style/style.css"> 
     <title>Waqas Daimee</title>
 </head>
@@ -14,8 +15,9 @@
     <nav class="container-fluid navbar navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">Waqas Daimee</span>
         <div class="font-awesome-nav">
-            <a href="https://github.com/wdaimee" class="fab fa-github"></a>
-            <a href="https://www.linkedin.com/in/waqas-daimee/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/wdaimee" class="fab fa-github" title="Github"></a>
+            <a href="https://www.linkedin.com/in/waqas-daimee/" class="fab fa-linkedin" title="LinkedIn"></a>
+            <a href="#" class="far fa-file-pdf" title="Resume"></a>
         </div>
     </nav>
     <div class="carousel" data-ride="carousel">
@@ -26,7 +28,6 @@
                 <div class="carousel-caption">
                     <h1 class="display-2">Waqas Daimee</h1>
                     <h2 class="display-5">Fullstack Developer</h2>
-                    <button>View Resume</button>
                 </div>
             </div>
         </div>
@@ -35,9 +36,91 @@
         <div class="row welcome text-center">
             <div class="col-12">
                 <h1 class="project-caption display-4">My Projects</h1>
+                <p class="project-desc display-6">Some projects have been deployed with Heroku. The app may take a moment to load.</p>
             </div>
             <hr>
         </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="images/dealish-screenshot.png" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-info">
+                                <h5 class="card-title">Dealish - Django Fullstack</h5>
+                                <p class="card-text">Dealish is a Fullstack web app where users can find deals and happy hours in their area. Goole Maps API and Geolocation is used to locate the user and display the closest deals to them.
+                                User authenication is implemented with the Django default authenication system. Logged in users can add, edit, and delete restaurant reviews and also add restaurants to a list of favourites.</p>
+                            </div>      
+                        <div class="card-tech">
+                            <i class="devicon-django-plain"></i>
+                            <i class="devicon-postgresql-plain"></i>
+                            <i class="devicon-css3-plain-wordmark"></i>
+                            <i class="devicon-bootstrap-plain-wordmark"></i>
+                            <i class="devicon-javascript-plain"></i>
+                            <i class="devicon-heroku-original"></i>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://dealish.herokuapp.com/" class="card-link">Visit the Site</a>
+                            <a href="https://github.com/wdaimee/Dealish" class="card-link">See the Code</a>
+                        </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="images/goalierental-screenshot.png" alt="Card image cap">
+                        <div class="card-body card-info">
+                            <div class="card-info">
+                                <h5 class="card-title">The Goalie Rental App - RESTful API</h5>
+                                <p class="card-text">A restful API that will be used as a backend for a React Frontend, this backend API was created with Node.js and Express.js. The website below can be accessed to view the Documentation for the API. AJAX requests are used to display the JSON response body from the database.</p>
+                            </div>
+                        <div class="card-tech">
+                            <i class="devicon-nodejs-plain"></i>
+                            <i class="devicon-express-original"></i>
+                            <i class="devicon-mongodb-plain-wordmark"></i>
+                            <i class="devicon-html5-plain-wordmark"></i>
+                            <i class="devicon-css3-plain-wordmark"></i>
+                            <i class="devicon-bootstrap-plain-wordmark"></i>
+                            <i class="devicon-heroku-original"></i>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://goalie-rental-app.herokuapp.com/api/docs" class="card-link">Visit the Site</a>
+                            <a href="https://github.com/wdaimee/Goalie-Rental-App" class="card-link">See the Code</a>
+                        </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="images/airhockey-screenshot.png" alt="Card image cap">
+                        <div class="card-body card-info">
+                            <div class="card-info">
+                                <h5 class="card-title">Old School Cool Air Hockey Game - Static App</h5>
+                                <p class="card-text">A two player air hockey game, best of 7 built with HTML Canvas, CSS, and JavaScript.</p>
+                            </div>
+                        <div class="card-tech">
+                            <i class="devicon-javascript-plain"></i>
+                            <i class="devicon-html5-plain-wordmark"></i>
+                            <i class="devicon-css3-plain-wordmark"></i>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://wdaimee.github.io/Air-Hockey-Game/" class="card-link">Visit the Site</a>
+                            <a href="https://github.com/wdaimee/Air-Hockey-Game" class="card-link">See the Code</a>
+                        </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        This is the footer.
+    </footer>
 </body>
 </html>
