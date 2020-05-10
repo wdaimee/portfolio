@@ -62,8 +62,6 @@ hr {
     background-color: #2c4153;
     color: white;
     display: inline-block;
-    margin: 25px 25px;
-    height: 650px;
 }
 
 .card-title {
@@ -71,7 +69,7 @@ hr {
 }
 
 .card-info {
-    height: 22vh;
+    height: 30%;
 }
 
 .card-text {
@@ -94,7 +92,7 @@ hr {
 
 i {
     font-size: 50px;
-    margin: 0 5px;
+    margin: 0px 5px;
 }
 
 .fixed-width {
@@ -112,11 +110,8 @@ i {
         object-fit: cover;
     }
     
-    .card {
-        height: 800px;
-    }
     .card-img-top {
-        height: 50%;
+        height: 40%;
         width: 100%;
     }
 }
@@ -129,10 +124,15 @@ i {
         height: 400px;
         object-fit: cover;
     }
+
 }
 @media (max-width: 576px) {
-    .display-2, .display-4 {
+    .display-2 {
         font-size: 30px;
+    }
+
+    .display-4 {
+        font-size: 25px;
     }
 
     .display-5 {
@@ -142,5 +142,13 @@ i {
     .bg-image {
         height: 200px;
         object-fit: cover;
+    }
+
+    .card-img-top {
+        height: 40%;
+    }
+
+    i {
+        margin-top: 10px;
     }
 }
