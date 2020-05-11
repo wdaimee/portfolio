@@ -70,6 +70,7 @@ hr {
 
 .card-info {
     min-height: 30%;
+    overflow-y: scroll;
 }
 
 .card-text {
