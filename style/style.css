@@ -69,15 +69,18 @@ hr {
 }
 
 .card-info {
-    height: 30%;
+    min-height: 30%;
 }
 
 .card-text {
     margin: 2px;
+    margin-bottom: 10px;
+    /* height: 175px; */
+    overflow-y: scroll;
 }
 
 .card-img-top {
-    height: 50%;
+    /* height: 40%; */
     width: 100%;
 }
 
@@ -86,8 +89,13 @@ hr {
     margin: 15px 0px;
 }
 
+
 .card-links{
     text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 i {
@@ -99,7 +107,14 @@ i {
     max-width: 500px;
 }
 
+
 /*---Media Queries --*/
+@media (max-width: 1200px) {
+    i {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 992px) {
     .display-2, .display-4 {
         font-size: 70px;
@@ -111,8 +126,12 @@ i {
     }
     
     .card-img-top {
-        height: 40%;
+        /* height: 40%; */
         width: 100%;
+    }
+
+    i {
+        font-size: 30px;
     }
 }
 @media (max-width: 768px) {
@@ -123,6 +142,19 @@ i {
     .bg-image {
         height: 400px;
         object-fit: cover;
+    }
+
+    .card-text {
+        font-size: 15px;
+        /* height: 125px; */
+    }
+   
+    i {
+        font-size: 20px;
+    }
+
+    .btn-outline-light {
+        font-size: 10px;
     }
 
 }
@@ -140,15 +172,29 @@ i {
     }
 
     .bg-image {
-        height: 200px;
+        height: 300px;
         object-fit: cover;
     }
 
     .card-img-top {
-        height: 40%;
+        /* height: 40%; */
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+        /* height: 125px; */
     }
 
     i {
-        margin-top: 10px;
+        font-size: 30px;
     }
+
+    .btn-outline-light {
+        font-size: 10px;
+    }
+
 }
