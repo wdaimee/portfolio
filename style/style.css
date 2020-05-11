@@ -1,8 +1,10 @@
-body {
+html, body {
     background-color: #202630;
     /* font-family: 'Poppins'; */
     width: 100vw;
-    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
 
 nav {
@@ -14,7 +16,7 @@ nav {
 }
 
 a.fab, a.far {
-    font-size: 30px;
+    font-size: 40px;
     margin: 5px 10px;
     color: #008899;
 }
@@ -33,6 +35,7 @@ a.fab:hover , a.far:hover {
     object-fit: cover;
 }
 
+
 .carousel-caption {
     position: absolute;
     top: 50%;
@@ -40,48 +43,50 @@ a.fab:hover , a.far:hover {
 }
 
 .project-caption {
-    color: #008899;
+    color: white;
     margin: 25px;
 }
 
 .project-desc {
-    color: #008899;
+    color: white;
     font-size: 25px;
 }
 
-.project-main {
-    height: 100vh;
-}
 
 hr {
-    border: 1px solid #008899;
-    width: 75%;
+    border: 1px solid white;
+    width: 100%;
 }
 
 .card {
     background-color: #2c4153;
     color: white;
     display: inline-block;
+    min-height: 100vh;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #292b2c;
 }
 
 .card-title {
     text-align: center;
+    font-size: 25px;
 }
 
 .card-info {
-    min-height: 30%;
     overflow-y: scroll;
+    background-color: #292b2c;
 }
 
 .card-text {
     margin: 2px;
     margin-bottom: 10px;
-    /* height: 175px; */
-    overflow-y: scroll;
+    font-size: 20px;
 }
 
 .card-img-top {
-    /* height: 40%; */
     width: 100%;
 }
 
@@ -90,13 +95,23 @@ hr {
     margin: 15px 0px;
 }
 
-
 .card-links{
     text-align: center;
     margin: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.btn-outline-light {
+    color: #008899;
+    border-color: #008899;
+    font-size: 20px;
+}
+
+.btn-outline-light:hover {
+    background-color: #008899;
+    border-color: #008899;
 }
 
 i {
@@ -107,6 +122,27 @@ i {
 .fixed-width {
     max-width: 500px;
 }
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: #292b2c;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer-title {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.email {
+    font-size: 20px;
+}
+
 
 
 /*---Media Queries --*/
@@ -134,6 +170,7 @@ i {
     i {
         font-size: 30px;
     }
+    
 }
 @media (max-width: 768px) {
     .display-2, .display-4 {
@@ -156,6 +193,11 @@ i {
 
     .btn-outline-light {
         font-size: 10px;
+    }
+
+    a.fab, a.far {
+        font-size: 30px;
+    
     }
 
 }
