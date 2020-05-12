@@ -84,6 +84,7 @@ hr {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    color: #008899;
 }
 
 .card-info {
@@ -155,6 +156,10 @@ footer {
 .email {
     font-size: 30px;
     margin-bottom: 1em;
+}
+
+.font-awesome-footer {
+    margin-top: 1em;
 }
 
 
