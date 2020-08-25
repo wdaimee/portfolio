@@ -162,7 +162,7 @@ footer {
     margin-top: 1em;
 }
 
-.icon-tech {
+img.icon-tech {
     vertical-align: top;
     height: 50px;
     width: 50px;
@@ -174,7 +174,7 @@ footer {
         font-size: 30px;
     }
 
-    .icon-tech {
+    img.icon-tech {
         height: 30px;
         width: 30px;
     }
@@ -198,7 +198,7 @@ footer {
         font-size: 30px;
     }
 
-    .icon-tech {
+    img.icon-tech {
         height: 30px;
         width: 30px;
     }
@@ -223,7 +223,7 @@ footer {
         font-size: 20px;
     }
 
-    .icon-tech {
+    img.icon-tech {
         height: 20px;
         width: 20px;
     }
@@ -273,7 +273,7 @@ footer {
         font-size: 30px;
     }
 
-    .icon-tech {
+    img.icon-tech {
         height: 30px;
         width: 30px;
     }
